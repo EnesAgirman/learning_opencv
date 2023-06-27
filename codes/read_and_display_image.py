@@ -8,3 +8,4 @@ cv.imshow("CAR", Blue_S2000)    # display the image
 
 cv.waitKey(10000)    # waits 3000 miliseconds for you to press any key, closes the window even if you haven't pressed after 3000 miliseconds
 
+## cv.waitkey(10000) also returns the unicode of the pressed key in that time frame given to it(10000ms in this case) and returns -1 if no key is pressed
