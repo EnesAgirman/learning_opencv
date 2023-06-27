@@ -3,11 +3,11 @@ import cv2 as cv
 
 myVideoCapture = cv.VideoCapture("random_videos\You're God damn right..mp4")
 
-while cv.waitKey(20) & 0xFF != ord("s"):
+while cv.waitKey(20) & 0xFF != ord(" "):
     theVideoIsRead, currentFrame =  myVideoCapture.read()
     
     if theVideoIsRead == True:
-        cv.imshow("myVideo", currentFrame)
+        cv.imshow("Press space to close", currentFrame)
     
 myVideoCapture.release()
 

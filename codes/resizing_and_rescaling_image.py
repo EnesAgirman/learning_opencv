@@ -21,10 +21,11 @@ def rescaleFrame(myFrame, myScale):
 
 rescaled_Blue_S2000 = rescaleFrame(Blue_S2000, 0.5)
 
+
 cv.imshow("myImage", Blue_S2000)
 cv.imshow("myImage_rescaled", rescaled_Blue_S2000)
     
-cv.waitKey(10000)
+cv.waitKey(100000)
 
 
 
